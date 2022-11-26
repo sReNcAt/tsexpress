@@ -1,0 +1,15 @@
+{
+    "name": "Express + MSSQL + TypeScript",
+    "bin": {
+        "app": "./app.js"
+    },
+    "script": {
+        "build": "pkg ."
+    },
+    "pkg": {
+        "targets": [
+            "node18-win-x64"
+        ],
+        "outputPath": "build"
+    }
+}
